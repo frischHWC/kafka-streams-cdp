@@ -7,3 +7,5 @@ target/
 *.log
 src/main/resources/*.sh
 src/main/resources/config.properties
+src/main/resources/config.properties
+src/main/resources/launchToPlatform.sh
