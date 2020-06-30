@@ -5,3 +5,5 @@
 target/*
 target/
 *.log
+src/main/resources/*.sh
+src/main/resources/config.properties
