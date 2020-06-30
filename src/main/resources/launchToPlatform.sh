@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 export USER=root
-export HOST=ccycloud-1.maryland.root.hwx.site
+export HOST=
 export DEST_DIR="/home/root/kafka-streams-test"
 
 echo "Create needed directory on platform and send required files there"
