@@ -5,7 +5,7 @@ import org.apache.log4j.Logger;
 
 class Treatment {
 
-    private final static Logger logger = Logger.getLogger(Treatment.class);
+    private static final Logger logger = Logger.getLogger(Treatment.class);
 
     static KStream<?, ?> treatment(final KStream<?, ?> inputStream) {
 

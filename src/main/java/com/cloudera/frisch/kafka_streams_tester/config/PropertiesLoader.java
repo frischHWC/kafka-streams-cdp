@@ -9,9 +9,9 @@ import java.util.Properties;
 
 public class PropertiesLoader {
 
-    private final static Logger logger = Logger.getLogger(PropertiesLoader.class);
+    private static final Logger logger = Logger.getLogger(PropertiesLoader.class);
 
-    public final static Properties properties = loadProperties();
+    public static final Properties properties = loadProperties();
 
     private static Properties loadProperties() {
         // Load config file

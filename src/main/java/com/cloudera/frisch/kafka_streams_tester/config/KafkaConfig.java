@@ -14,8 +14,7 @@ import java.util.Properties;
 
 public class KafkaConfig {
 
-    private final static Logger logger = Logger.getLogger(KafkaConfig.class);
-
+    private static final Logger logger = Logger.getLogger(KafkaConfig.class);
 
     public static Properties getKafkaProperties() {
         java.util.Properties props = new java.util.Properties();

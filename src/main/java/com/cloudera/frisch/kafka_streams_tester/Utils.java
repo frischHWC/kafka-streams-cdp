@@ -14,7 +14,7 @@ import java.io.Writer;
 
 public class Utils {
 
-    private final static Logger logger = Logger.getLogger(Utils.class);
+    private static final Logger logger = Logger.getLogger(Utils.class);
 
 
     /**

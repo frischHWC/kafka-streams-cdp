@@ -8,4 +8,4 @@ target/
 src/main/resources/*.sh
 src/main/resources/config.properties
 src/main/resources/config.properties
-src/main/resources/launchToPlatform.sh
+src/main/resources/overallLaunch.sh

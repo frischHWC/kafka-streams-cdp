@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 
+# Export your host here to launch the program on the platform
+# export HOST=
+
 export USER=root
-export HOST=
 export DEST_DIR="/home/root/kafka-streams-test"
 
 echo "Create needed directory on platform and send required files there"
