@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-export DIR="/home/root/kafka-streams-test"
+export DIR="/root/kafka-streams-test"
 
 echo "*** Starting to launch program ***"
 
@@ -8,7 +8,7 @@ echo "*** Starting to launch program ***"
 
 echo "Launching jar via java command"
 
-    java -jar kafka-streams-tester.jar $@
+    java --add-opens java.base/jdk.internal.ref=ALL-UNNAMED -jar kafka-streams-tester.jar $@
 
     sleep 1
 

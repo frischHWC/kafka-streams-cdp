@@ -9,10 +9,10 @@
     <version>1.0-SNAPSHOT</version>
 
     <properties>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
         <!-- Check your EXACT version of CDP as all platform jars depends on it -->
-        <cdp.version>7.1.6.0-297</cdp.version>
+        <cdp.version>7.1.7.0-551</cdp.version>
     </properties>
 
     <dependencies>

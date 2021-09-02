@@ -4,7 +4,7 @@
 # export HOST=
 
 export USER=root
-export DEST_DIR="/home/root/kafka-streams-test"
+export DEST_DIR="/root/kafka-streams-test"
 
 echo "Create needed directory on platform and send required files there"
 
