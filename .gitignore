@@ -9,3 +9,7 @@ src/main/resources/*.sh
 src/main/resources/config.properties
 src/main/resources/config.properties
 src/main/resources/overallLaunch.sh
+.factorypath
+.classpath
+.settings
+.project
